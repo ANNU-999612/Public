@@ -460,4 +460,5 @@ wss = new WebSocket.Server({ server });
 
 process.on('uncaughtException', (error) => {
   console.log('ðŸ›¡ï¸ Global protection:', error.message);
+
 });
